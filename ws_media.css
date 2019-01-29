@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 8
+   Case Problem 1
+
+   Rhetoric in the United States Styles for Media
+   Author: Aiden Martinez
+   Date:   01.29.2019
+
+   Filename: ws_media.css
+
+*/
+
+/* Video Player Styles */
+video {
+    display: block;
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-display: block;
+    -moz-width: 90%;
+    -moz-margin-top: 5px;
+    -moz-margin-bottom: 5px;
+    -moz-margin-left: auto;
+    -moz-margin-right: auto;
+    -ms-display: block;
+    -ms-width: 90%;
+    -ms-margin-top: 5px;
+    -ms-margin-bottom: 5px;
+    -ms-margin-left: auto;
+    -ms-margin-right: auto;
+    -o-display: block;
+    -o-width: 90%;
+    -o-margin-top: 5px;
+    -o-margin-bottom: 5px;
+    -o-margin-left: auto;
+    -o-margin-right: auto;
+    -webkit-display: block;
+    -webkit-width: 90%;
+    -webkit-margin-top: 5px;
+    -webkit-margin-bottom: 5px;
+    -webkit-margin-left: auto;
+    -webkit-margin-right: auto;
+}
+
+/* 
+==================================================
+The above piece of code changes the following: display, width, top/bottom/left/right margins of all video elements to the following respective values: block, 90%, 5px, 5px, auto, auto; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
+
+/* Track Styles */
+::cue {
+    font-size: 1.3em;
+    font-family: serif;
+    color: rgb(221, 128, 160);
+    background-color: rgba(255, 255, 255, 0.8);
+    -moz-font-size: 1.3em;
+    -moz-font-family: serif;
+    -moz-color: rgb(221, 128, 160);
+    -moz-background-color: rgba(255, 255, 255, 0.8);
+    -ms-font-size: 1.3em;
+    -ms-font-family: serif;
+    -ms-color: rgb(221, 128, 160);
+    -ms-background-color: rgba(255, 255, 255, 0.8);
+    -o-font-size: 1.3em;
+    -o-font-family: serif;
+    -o-color: rgb(221, 128, 160);
+    -o-background-color: rgba(255, 255, 255, 0.8);
+    -webkit-font-size: 1.3em;
+    -webkit-font-family: serif;
+    -webkit-color: rgb(221, 128, 160);
+    -webkit-background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* 
+==================================================
+The above piece of code changes the following: font size, font, font color, background color of all ::cue elements to the following respective values: 1.3em, serif, rgb(221, 128, 160), rgba(255, 255, 255, 0.8); as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
